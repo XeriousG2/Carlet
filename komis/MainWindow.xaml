@@ -1,0 +1,20 @@
+﻿<Window x:Class="komis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:komis"
+        mc:Ignorable="d"
+        Title="Carlet" Height="490" Width="1000">
+    <Grid Background="#FF0B252B">
+        <StackPanel Orientation="Vertical" Height="420" Width="130" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Button Content="AUDI" Margin="10,20,0,0" Width="120" Height="40" Click="AUDI" />
+            <Button Content="VOLKSVAGEN" Margin="10,40,0,0" Width="120" Height="40" Click="VOLKSWAGEN"/>
+            <Button Content="SEAT" Margin="10,40,0,0" Width="120" Height="40" Click="SEAT"/>
+            <Button Content="FIAT" Margin="10,40,0,0" Width="120" Height="40" Click="FIAT"/>
+            <Button Content="Dodaj ogłoszenie" Margin="10,40,0,0" Width="120" Height="40" Click="ogloszenie"/>
+
+        </StackPanel>
+        <Frame x:Name="Main" Margin="130,0,0,0" NavigationUIVisibility="Hidden" />
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Page x:Class="komis.fiat"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:komis"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="fiat">
+
+    <Grid Background="#FF0B252B">
+        <Image Margin="225,10,226,247" Source="D:\Na studia\Rok2\Projekt-prog\2.jpg" />
+        <TextBlock HorizontalAlignment="Left" Height="221" Margin="96,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="619"><Run Text="SAMOCHÓD CZYSTY ZADBANY .GODNY POLECENIA.Komplet dokumentów , książka serwisowa ."/><LineBreak/><Run Text="Ostatni wbity przegląd w książkę serwisową PRZY STANIE LICZNIKA 90tyś. 8-02-2019 ."/><LineBreak/><Run Text="Samochód po wymianie oleju filtrów ,świec. Opony letnie i zimówki w dobrym stanie"/><LineBreak/><Run Text="W tym momencie bez wkładu finansowego ."/><LineBreak/><Run Text="Miernik lakieru na miejscu."/><LineBreak/><Run/><LineBreak/><Run Text="Możliwość zamontowana NOWAEJ instalacji gazowej marki STAG QBOX w autoryzowanym serwisie z gwarancją OGÓLNOPOLSKA. CENA PROMOCYJNA ."/><LineBreak/><Run/><LineBreak/><Run Text="Wyposażenie auta:"/><LineBreak/><Run Text="- EL SZYBY 2X"/><LineBreak/><Run Text="- SKRZYNIA MANUALNA 5 BIEGOWA"/><LineBreak/><Run Text="- SILNIK 1.2 BENZYNA 69 KM !"/><LineBreak/><Run Text="- ABS"/></TextBlock>
+
+    </Grid>
+</Page>
