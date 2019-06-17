@@ -10,7 +10,8 @@
 
     <Grid Background="#FF0B252B">
         <Image  Margin="244,0,244,244" Source="D:\Na studia\Rok2\Projekt-prog\3.jpg"/>
-        <TextBlock HorizontalAlignment="Left" Height="214" Margin="150,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="619"><Run Text="MARKA: Seat"/><LineBreak/><Run Text="MODEL: Ibiza"/><LineBreak/><Run Text="SILNIK: 1.0 TSI 95 KM"/><LineBreak/><Run Text="SKRZYNIA: 5-biegowa manualna"/><LineBreak/><Run Text="WERSJA: Full Led"/><LineBreak/><Run Text="GWARANCJA: 5 LAT"/><LineBreak/><Run Text="RATA DLA CIEBIE: 629,-zł *"/><LineBreak/><Run/><LineBreak/><Run Text="CENA KATALOGOWA: 67 306,-zł"/><LineBreak/><Run/><LineBreak/><Run Text="Dodatkowe wyposażenie: "/><LineBreak/><Run/><LineBreak/><Run Text="- Czujniki parkowania z tyłu (WARTOŚĆ 1 136,-zł)"/><LineBreak/><Run Text="- 15-calowe felgi aluminiowe ENJOY 20/1 (WARTOŚĆ 1 817,-zł)"/></TextBlock>
-
+        <ScrollViewer>
+        <TextBlock HorizontalAlignment="Left" Margin="150,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="619"><Run Text="MARKA: Seat"/><LineBreak/><Run Text="MODEL: Ibiza"/><LineBreak/><Run Text="SILNIK: 1.0 TSI 95 KM"/><LineBreak/><Run Text="SKRZYNIA: 5-biegowa manualna"/><LineBreak/><Run Text="WERSJA: Full Led"/><LineBreak/><Run Text="GWARANCJA: 5 LAT"/><LineBreak/><Run Text="RATA DLA CIEBIE: 629,-zł *"/><LineBreak/><Run/><LineBreak/><Run Text="CENA KATALOGOWA: 67 306,-zł"/><LineBreak/><Run/><LineBreak/><Run Text="Dodatkowe wyposażenie: "/><LineBreak/><Run/><LineBreak/><Run Text="- Czujniki parkowania z tyłu (WARTOŚĆ 1 136,-zł)"/><LineBreak/><Run Text="- 15-calowe felgi aluminiowe ENJOY 20/1 (WARTOŚĆ 1 817,-zł)"/></TextBlock>
+         </ScrollViewer>
     </Grid>
 </Page>

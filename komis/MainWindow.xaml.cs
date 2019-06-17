@@ -25,25 +25,41 @@ namespace komis
             InitializeComponent();
 
         }
-        
+        /// <summary>
+        /// Przez tą metode przenosimy się do strony o nazwie "audi1"
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void AUDI(object sender, RoutedEventArgs e)
         {
             Main.Content = new audi1();
           
         }
-
+        /// <summary>
+        /// Przez tą metode przenosimy się do strony o nazwie "volks"
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void VOLKSWAGEN(object sender, RoutedEventArgs e)
         {
             Main.Content = new volks();
           
         }
-
+        /// <summary>
+        /// Przez tą metode przenosimy się do strony o nazwie "seat"
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SEAT(object sender, RoutedEventArgs e)
         {
             Main.Content = new seat();
          
         }
-
+        /// <summary>
+        /// Przez tą metode przenosimy się do strony o nazwie "fiat"
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FIAT(object sender, RoutedEventArgs e)
         {
             Main.Content = new fiat();
