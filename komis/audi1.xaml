@@ -8,10 +8,11 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="audi1">
 
-    <Grid Background="#FF0B252B">
-        <Image Margin="198,10,199,213" Source="D:\Na studia\Rok2\Projekt-prog\1.jpg"/>
+    <Grid Background="#FFA500">
+
+        <Image Margin="198,10,199,213" Source="Image/auto-ramka-03.png"/>
         <ScrollViewer>
-        <TextBlock  Margin="130,242,80,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="590"><Run Text="Wyposażenie dodatkowe:"/><LineBreak/><Run/><LineBreak/><Run Text="- pakiet: Fotele przednie sportowe S (Fotele przednie sportowe S line ze zintegrowanymi zagłówkami, 4-kierunkowa regulacja podparcia odcinka lędźwiowego kręgosłupa, Listwy boczne w oparciach foteli w kolorze czarnym, Lakierowane elementy wnętrza bocznych elementów siedzeń w kolorze czarnym)"/><LineBreak/><Run Text="- pakiet: Pakiet dla palących (Popielniczka + zapalniczka)"/><LineBreak/><Run Text="- Advanced key (bez funkcji Safe Lock) - system umożliwiający otwarcie samochodu bez kluczyka"/><LineBreak/><Run Text="- Audi drive select (zmiana charakterystyki trybu jazdy) - tryby comfort, auto, dynamic, efficiency"/><LineBreak/><Run Text="- Audi parking system przód/tył - czujniki parkowania"/><LineBreak/><Run Text="- Audi phone box (w konsoli centralnej) - system głośnomówiący"/><LineBreak/><Run Text="- Audi smartphone Interface"/><LineBreak/><Run Text="- Dodatkowe oświetlenie wnętrza w technice LED"/><LineBreak/><Run Text="- Elementy dekoracyjne wnętrza - Aluminuim (mat)"/></TextBlock>
-            </ScrollViewer>
+            <TextBlock  Margin="130,242,80,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="590"><Run Text="Wyposażenie dodatkowe:"/><LineBreak/><Run/><LineBreak/><Run Text="- pakiet: Fotele przednie sportowe S (Fotele przednie sportowe S line ze zintegrowanymi zagłówkami, 4-kierunkowa regulacja podparcia odcinka lędźwiowego kręgosłupa, Listwy boczne w oparciach foteli w kolorze czarnym, Lakierowane elementy wnętrza bocznych elementów siedzeń w kolorze czarnym)"/><LineBreak/><Run Text="- pakiet: Pakiet dla palących (Popielniczka + zapalniczka)"/><LineBreak/><Run Text="- Advanced key (bez funkcji Safe Lock) - system umożliwiający otwarcie samochodu bez kluczyka"/><LineBreak/><Run Text="- Audi drive select (zmiana charakterystyki trybu jazdy) - tryby comfort, auto, dynamic, efficiency"/><LineBreak/><Run Text="- Audi parking system przód/tył - czujniki parkowania"/><LineBreak/><Run Text="- Audi phone box (w konsoli centralnej) - system głośnomówiący"/><LineBreak/><Run Text="- Audi smartphone Interface"/><LineBreak/><Run Text="- Dodatkowe oświetlenie wnętrza w technice LED"/><LineBreak/><Run Text="- Elementy dekoracyjne wnętrza - Aluminuim (mat)"/></TextBlock>
+        </ScrollViewer>
     </Grid>
 </Page>

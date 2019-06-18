@@ -66,9 +66,5 @@ namespace komis
             
         }
 
-        private void ogloszenie(object sender, RoutedEventArgs e)
-        {
-            Main.Content = new ogloszenie();
-        }
     }
 }

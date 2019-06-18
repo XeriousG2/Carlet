@@ -59,14 +59,8 @@
     <Compile Include="fiat.xaml.cs">
       <DependentUpon>fiat.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ogloszenie.xaml.cs">
-      <DependentUpon>ogloszenie.xaml</DependentUpon>
-    </Compile>
     <Compile Include="seat.xaml.cs">
       <DependentUpon>seat.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="twojeogl.xaml.cs">
-      <DependentUpon>twojeogl.xaml</DependentUpon>
     </Compile>
     <Compile Include="volks.xaml.cs">
       <DependentUpon>volks.xaml</DependentUpon>
@@ -94,15 +88,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="ogloszenie.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="seat.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="twojeogl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -138,12 +124,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\1.jpg" />
+    <Resource Include="Image\car.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\2.jpg" />
-    <Resource Include="Image\3.jpg" />
-    <Resource Include="Image\4.jpg" />
+    <Resource Include="Image\auto-ramka-01.png" />
+    <Resource Include="Image\auto-ramka-02.png" />
+    <Resource Include="Image\auto-ramka-03.png" />
+    <Resource Include="Image\auto-ramka-04.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -21,7 +21,4 @@ D:\Na studia\Rok2\Projekt-prog\komis\komis\obj\Debug\volks.g.cs
 D:\Na studia\Rok2\Projekt-prog\komis\komis\obj\Debug\fiat.baml
 D:\Na studia\Rok2\Projekt-prog\komis\komis\obj\Debug\seat.baml
 D:\Na studia\Rok2\Projekt-prog\komis\komis\obj\Debug\volks.baml
-D:\Na studia\Rok2\Projekt-prog\komis\komis\obj\Debug\ogloszenie.g.cs
-D:\Na studia\Rok2\Projekt-prog\komis\komis\obj\Debug\ogloszenie.baml
-D:\Na studia\Rok2\Projekt-prog\komis\komis\obj\Debug\twojeogl.g.cs
-D:\Na studia\Rok2\Projekt-prog\komis\komis\obj\Debug\twojeogl.baml
+D:\Na studia\Rok2\Projekt-prog\komis\komis\obj\Debug\App.baml

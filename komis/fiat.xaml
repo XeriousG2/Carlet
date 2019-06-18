@@ -8,8 +8,8 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="fiat">
 
-    <Grid Background="#FF0B252B">
-        <Image Margin="225,10,226,247" Source="D:\Na studia\Rok2\Projekt-prog\2.jpg" />
+    <Grid Background="#FFA500">
+        <Image Margin="225,10,226,247" Source="Image/auto-ramka-02.png" />
         <ScrollViewer>
             <TextBlock HorizontalAlignment="Left"  Margin="96,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="619"><Run Text="SAMOCHÓD CZYSTY ZADBANY .GODNY POLECENIA.Komplet dokumentów , książka serwisowa ."/><LineBreak/><Run Text="Ostatni wbity przegląd w książkę serwisową PRZY STANIE LICZNIKA 90tyś. 8-02-2019 ."/><LineBreak/><Run Text="Samochód po wymianie oleju filtrów ,świec. Opony letnie i zimówki w dobrym stanie"/><LineBreak/><Run Text="W tym momencie bez wkładu finansowego ."/><LineBreak/><Run Text="Miernik lakieru na miejscu."/><LineBreak/><Run/><LineBreak/><Run Text="Możliwość zamontowana NOWAEJ instalacji gazowej marki STAG QBOX w autoryzowanym serwisie z gwarancją OGÓLNOPOLSKA. CENA PROMOCYJNA ."/><LineBreak/><Run/><LineBreak/><Run Text="Wyposażenie auta:"/><LineBreak/><Run Text="- EL SZYBY 2X"/><LineBreak/><Run Text="- SKRZYNIA MANUALNA 5 BIEGOWA"/><LineBreak/><Run Text="- SILNIK 1.2 BENZYNA 69 KM !"/><LineBreak/><Run Text="- ABS"/></TextBlock>
          </ScrollViewer>
