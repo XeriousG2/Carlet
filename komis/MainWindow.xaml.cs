@@ -17,6 +17,7 @@ namespace komis
 {
     /// <summary>
     /// Logika interakcji dla klasy MainWindow.xaml
+    /// Dzięki tej klasie możemy używać przycisków w nawigacji
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -25,41 +26,33 @@ namespace komis
             InitializeComponent();
 
         }
-        /// <summary>
-        /// Przez tą metode przenosimy się do strony o nazwie "audi1"
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
+        /// Przez tą metode po klkiknięciu w przycisk "AUDI" przenosimy się do strony o nazwie "audi1"
+        
         private void AUDI(object sender, RoutedEventArgs e)
         {
             Main.Content = new audi1();
           
         }
-        /// <summary>
-        /// Przez tą metode przenosimy się do strony o nazwie "volks"
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
+        /// Przez tą metode po klkiknięciu w przycisk "VLOKSWAGEN" przenosimy się do strony o nazwie "volks"
+
         private void VOLKSWAGEN(object sender, RoutedEventArgs e)
         {
             Main.Content = new volks();
           
         }
-        /// <summary>
-        /// Przez tą metode przenosimy się do strony o nazwie "seat"
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
+        /// Przez tą metode po klkiknięciu w przycisk "SEAT" przenosimy się do strony o nazwie "seat"
+
         private void SEAT(object sender, RoutedEventArgs e)
         {
             Main.Content = new seat();
          
         }
-        /// <summary>
-        /// Przez tą metode przenosimy się do strony o nazwie "fiat"
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
+        /// Przez tą metode po klkiknięciu w przycisk "FIAT" przenosimy się do strony o nazwie "fiat"
+
         private void FIAT(object sender, RoutedEventArgs e)
         {
             Main.Content = new fiat();

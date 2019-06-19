@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="Carlet" Height="490" Width="1000">
     <Grid Background="#FFA500">
-        <StackPanel Orientation="Vertical" Height="420" Width="130" HorizontalAlignment="Left" VerticalAlignment="Center">
-            <Button Style="{StaticResource RoundButtonTemplate}" Content="AUDI" Margin="10,20,0,0" Width="120" Height="40" Click="AUDI" />
-            <Button  Style="{StaticResource RoundButtonTemplate}" Content="VOLKSVAGEN" Margin="10,40,0,0" Width="120" Height="40" Click="VOLKSWAGEN"/>
-            <Button Style="{StaticResource RoundButtonTemplate}" Content="SEAT" Margin="10,40,0,0" Width="120" Height="40" Click="SEAT"/>
-            <Button Style="{StaticResource RoundButtonTemplate}" Content="FIAT" Margin="10,40,0,0" Width="120" Height="40" Click="FIAT"/>
+        <StackPanel Background="#e69500" Orientation="Vertical" Height="459" Width="130" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Button Style="{StaticResource RoundButtonTemplate}" Content="AUDI" Margin="0,20,0,0" Width="120" Height="40" Click="AUDI" />
+            <Button  Style="{StaticResource RoundButtonTemplate}" Content="VOLKSVAGEN" Margin="0,40,0,0" Width="120" Height="40" Click="VOLKSWAGEN"/>
+            <Button Style="{StaticResource RoundButtonTemplate}" Content="SEAT" Margin="0,40,0,0" Width="120" Height="40" Click="SEAT"/>
+            <Button Style="{StaticResource RoundButtonTemplate}" Content="FIAT" Margin="0,40,0,0" Width="120" Height="40" Click="FIAT"/>
             <Image Source="Image/car.png" Height="78"  RenderTransformOrigin="0.179,1.015"/>
             <Label Content="CARLET" Margin="20,0,17,0" FontFamily="Showcard Gothic" FontSize="22"/>
         </StackPanel>
