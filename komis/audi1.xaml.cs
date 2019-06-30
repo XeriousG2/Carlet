@@ -26,9 +26,5 @@ namespace komis
             InitializeComponent();
         }
 
-        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
     }
 }
